@@ -1,9 +1,9 @@
-# Ultroid - UserBot
-# Copyright (C) 2021-2022 TeamUltroid
+# Ayra - UserBot
+# Copyright (C) 2021-2022 TeamAyra
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
+# This file is a part of < https://github.com/TeamAyra/Ayra/ >
 # PLease read the GNU Affero General Public License in
-# <https://github.com/TeamUltroid/pyUltroid/blob/main/LICENSE>.
+# <https://github.com/TeamAyra/pyAyra/blob/main/LICENSE>.
 
 from . import *
 
@@ -28,22 +28,22 @@ def main():
     if (
         udB.get_key("UPDATE_ON_RESTART")
         and os.path.exists(".git")
-        and ultroid_bot.run_in_loop(updater())
+        and Ayra_bot.run_in_loop(updater())
     ):
-        ultroid_bot.run_in_loop(bash("bash installer.sh"))
+        Ayra_bot.run_in_loop(bash("bash installer.sh"))
 
-        os.execl(sys.executable, "python3", "-m", "pyUltroid")
+        os.execl(sys.executable, "python3", "-m", "pyAyra")
 
-    ultroid_bot.run_in_loop(startup_stuff())
+    Ayra_bot.run_in_loop(startup_stuff())
 
-    ultroid_bot.me.phone = None
+    Ayra_bot.me.phone = None
 
-    if not ultroid_bot.me.bot:
-        udB.set_key("OWNER_ID", ultroid_bot.uid)
+    if not Ayra_bot.me.bot:
+        udB.set_key("OWNER_ID", Ayra_bot.uid)
 
     LOGS.info("Initialising...")
 
-    ultroid_bot.run_in_loop(autopilot())
+    Ayra_bot.run_in_loop(autopilot())
 
     pmbot = udB.get_key("PMBOT")
     manager = udB.get_key("MANAGER")
@@ -62,26 +62,26 @@ def main():
 
     suc_msg = """
             ----------------------------------------------------------------------
-                Ultroid has been deployed! Visit @TheUltroid for updates!!
+                Ayra has been deployed! Visit @TheAyra for updates!!
             ----------------------------------------------------------------------
     """
 
     # for channel plugins
     plugin_channels = udB.get_key("PLUGIN_CHANNEL")
 
-    # Customize Ultroid Assistant...
-    ultroid_bot.run_in_loop(customize())
+    # Customize Ayra Assistant...
+    Ayra_bot.run_in_loop(customize())
 
     # Load Addons from Plugin Channels.
     if plugin_channels:
-        ultroid_bot.run_in_loop(plug(plugin_channels))
+        Ayra_bot.run_in_loop(plug(plugin_channels))
 
     # Send/Ignore Deploy Message..
     if not udB.get_key("LOG_OFF"):
-        ultroid_bot.run_in_loop(ready())
+        Ayra_bot.run_in_loop(ready())
 
     # Edit Restarting Message (if It's restarting)
-    ultroid_bot.run_in_loop(WasItRestart(udB))
+    Ayra_bot.run_in_loop(WasItRestart(udB))
 
     try:
         cleanup_cache()
@@ -89,7 +89,7 @@ def main():
         pass
 
     LOGS.info(
-        f"Took {time_formatter((time.time() - start_time)*1000)} to start •ULTROID•"
+        f"Took {time_formatter((time.time() - start_time)*1000)} to start •Ayra•"
     )
     LOGS.info(suc_msg)
 
