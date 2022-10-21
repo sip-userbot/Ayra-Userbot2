@@ -1,34 +1,31 @@
 <p align="center">
-  <img src="./resources/extras/logo_readme.jpg" alt="TeamUltroid Logo">
+  <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
 </p>
 <h1 align="center">
-  <b>Ultroid - UserBot</b>
+  <b>Ayra - UserBot</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon.</b>
 
-[![](https://img.shields.io/badge/Ultroid-v0.7-darkgreen)](#)
-[![Stars](https://img.shields.io/github/stars/TeamUltroid/Ultroid?style=flat-square&color=yellow)](https://github.com/TeamUltroid/Ultroid/stargazers)
-[![Forks](https://img.shields.io/github/forks/TeamUltroid/Ultroid?style=flat-square&color=orange)](https://github.com/TeamUltroid/Ultroid/fork)
-[![Size](https://img.shields.io/github/repo-size/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/TeamUltroid/Ultroid/)   
+[![](https://img.shields.io/badge/Ayra-v0.7-darkgreen)](#)
+[![Stars](https://img.shields.io/github/stars/riizzvbss/Ayra-Userbot2?style=flat-square&color=yellow)](https://github.com/riizzvbss/Ayra-Userbot2/stargazers)
+[![Forks](https://img.shields.io/github/forks/riizzvbss/Ayra-Userbot2?style=flat-square&color=orange)](https://github.com/riizzvbss/Ayra-Userbot2/fork)
+[![Size](https://img.shields.io/github/repo-size/riizzvbss/Ayra-Userbot2?style=flat-square&color=green)](https://github.com/riizzvbss/Ayra-Userbot2/)   
 [![Python](https://img.shields.io/badge/Python-v3.10.3-blue)](https://www.python.org/)
-[![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/ultroid/badge/main)](https://www.codefactor.io/repository/github/teamultroid/ultroid/overview/main)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/TeamUltroid/Ultroid/graphs/commit-activity)
-[![Docker Pulls](https://img.shields.io/docker/pulls/theteamultroid/ultroid?style=flat-square)](https://img.shields.io/docker/pulls/theteamultroid/ultroid?style=flat-square)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TeamUltroid/Ultroid)
-[![Contributors](https://img.shields.io/github/contributors/TeamUltroid/Ultroid?style=flat-square&color=green)](https://github.com/TeamUltroid/Ultroid/graphs/contributors)
+[![CodeFactor](https://www.codefactor.io/repository/github/riizzvbss/Ayra-Userbot2/badge/main)](https://www.codefactor.io/repository/github/riizzvbss/Ayra-Userbot2/overview/main)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/riizzvbss/Ayra-Userbot2/graphs/commit-activity)
+[![Docker Pulls](https://img.shields.io/docker/pulls/theriizzvbss/Ayra-Userbot2?style=flat-square)](https://img.shields.io/docker/pulls/theriizzvbss/Ayra-Userbot2?style=flat-square)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/riizzvbss/Ayra-Userbot2)
+[![Contributors](https://img.shields.io/github/contributors/riizzvbss/Ayra-Userbot2?style=flat-square&color=green)](https://github.com/riizzvbss/Ayra-Userbot2/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/TeamUltroid/Ultroid/blob/main/LICENSE)   
-[![Sparkline](https://stars.medv.io/Teamultroid/Ultroid.svg)](https://stars.medv.io/TeamUltroid/Ultroid)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/riizzvbss/Ayra-Userbot2/blob/main/LICENSE)   
+[![Sparkline](https://stars.medv.io/riizzvbss/Ayra-Userbot2.svg)](https://stars.medv.io/riizzvbss/Ayra-Userbot2)
 ----
 
 # Deploy
 - [Heroku](#deploy-to-heroku)
 - [Okteto](#deploy-to-okteto)
 - [Local Machine](#deploy-locally)
-
-# Documentation 
-[![Documentation](https://img.shields.io/badge/Documentation-Ultroid-blue)](http://ultroid.tech/)
 
 # Tutorial 
 - Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://www.youtube.com/watch?v=0wAV7pUzhDQ)
@@ -39,29 +36,29 @@
 ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://deploy.ultroid.tech)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://deploy.Ayra.tech)
 
 ## Deploy to Okteto
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/TeamUltroid/Ultroid)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/riizzvbss/Ayra-Userbot2)
 
 ## Deploy Locally
 - [Traditional Method](#local-deploy---traditional-method)
 - [Easy Method](#local-deploy---easy-method)
-- [Ultroid CLI](#ultroid-cli)
+- [Ayra CLI](#Ayra-cli)
 
 ### Local Deploy - Easy Method
 - Linux - `wget -O locals.py https://git.io/JY9UM && python3 locals.py`
 - Windows - `cd desktop ; wget https://git.io/JY9UM -o locals.py ; python locals.py`
-- Termux - `wget -O install-termux https://tiny.ultroid.tech/termux && bash install-termux`
+- Termux - `wget -O install-termux https://tiny.Ayra.tech/termux && bash install-termux`
 
 ### Local Deploy - Traditional Method
 - Get your [Necessary Variables](#Necessary-Variables)
 - Clone the repository:    
-`git clone https://github.com/TeamUltroid/Ultroid.git`
+`git clone https://github.com/riizzvbss/Ayra-Userbot2.git`
 - Go to the cloned folder:    
-`cd Ultroid`
+`cd Ayra`
 - Create a virtual env:      
 `virtualenv -p /usr/bin/python3 venv`
 `. ./venv/bin/activate`
@@ -76,27 +73,27 @@ Get the [Necessary Variables](#Necessary-Variables) and then click the button be
   - For Termux users:
     `wget -O session.py https://git.io/JY9JI && python session.py`
   - For Windows Users:
-    `cd desktop ; wget https://git.io/JY9JI -o ultroid.py ; python ultroid.py`
-- Fill your details in a `.env` file, as given in [`.env.sample`](https://github.com/TeamUltroid/Ultroid/blob/main/.env.sample).
+    `cd desktop ; wget https://git.io/JY9JI -o Ayra.py ; python Ayra.py`
+- Fill your details in a `.env` file, as given in [`.env.sample`](https://github.com/riizzvbss/Ayra-Userbot2/blob/main/.env.sample).
 (You can either edit and rename the file or make a new file named `.env`.)
 - Run the bot:
   - Linux Users:
    `bash startup`
   - Windows Users:
-    `python(3) -m pyUltroid`
+    `python(3) -m pyAyra`
 <details>
-<summary><h3>[OUTDATED] Ultroid CLI</h3></summary>
+<summary><h3>[OUTDATED] Ayra CLI</h3></summary>
 
-[Ultroid CLI](https://github.com/BLUE-DEVIL1134/UltroidCli) is a command-line interface for deploying Ultroid.   
+[Ayra CLI](https://github.com/BLUE-DEVIL1134/AyraCli) is a command-line interface for deploying Ayra.   
 
 - **Installing** -    
 Run the following code on a terminal, with curl installed.   
-`ver=$(curl https://raw.githubusercontent.com/BLUE-DEVIL1134/UltroidCli/main/version.txt) && curl -L -o ultroid https://github.com/BLUE-DEVIL1134/UltroidCli/releases/download/$ver/ultroid.exe`
+`ver=$(curl https://raw.githubusercontent.com/BLUE-DEVIL1134/AyraCli/main/version.txt) && curl -L -o Ayra https://github.com/BLUE-DEVIL1134/AyraCli/releases/download/$ver/Ayra.exe`
 OR
-Go to [UltroidCli](https://github.com/BLUE-DEVIL1134/UltroidCli) and install the version release from the Github Releases. Add the executable to your system path as specified in the [Readme](https://github.com/BLUE-DEVIL1134/UltroidCli#how-to-use-ultroidcli-).   
+Go to [AyraCli](https://github.com/BLUE-DEVIL1134/AyraCli) and install the version release from the Github Releases. Add the executable to your system path as specified in the [Readme](https://github.com/BLUE-DEVIL1134/AyraCli#how-to-use-Ayracli-).   
 
 - **Documentation** -
-Take a look at the [`docs`](https://blue-devil1134.github.io/UltroidCli/) for more detailed information.
+Take a look at the [`docs`](https://blue-devil1134.github.io/AyraCli/) for more detailed information.
 </details>
 
 ---
@@ -114,9 +111,9 @@ One of the following database:
 
 ## Session String
 Different ways to get your `SESSION`:
-* [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@TeamUltroid/UltroidStringSession)
+* [![Run on Repl.it](https://replit.com/badge/github/riizzvbss/Ayra-Userbot2)](https://replit.com/@riizzvbss/Ayra-Userbot2StringSession)
 * Linux : `wget -O session.py https://git.io/JY9JI && python3 session.py`
-* PowerShell : `cd desktop ; wget https://git.io/JY9JI ; python ultroid.py`
+* PowerShell : `cd desktop ; wget https://git.io/JY9JI ; python Ayra.py`
 * Termux : `wget -O session.py https://git.io/JY9JI && python session.py`
 * TelegramBot : [@SessionGeneratorBot](https://t.me/SessionGeneratorBot)
 
@@ -124,13 +121,14 @@ Different ways to get your `SESSION`:
 
 # License
 [![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)   
-Ultroid is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
+Ayra is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
 
 ---
 
 # Credits
 * [![TeamUltroid-Devs](https://img.shields.io/static/v1?label=Teamultroid&message=devs&color=critical)](https://t.me/UltroidDevs)
+* [![Ayra-Devs](https://img.shields.io/static/v1?label=Ayra&message=devs&color=critical)](https://t.me/riizzvbss)
 * [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
 * [MarshalX](https://github.com/MarshalX) for [PyTgCalls.](https://github.com/MarshalX/tgcalls)
 
-> Made with 💕 by [@TeamUltroid](https://t.me/TeamUltroid).    
+> Kang with 💕 by [Riizz](https://t.me/riizzvbss).    
