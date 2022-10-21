@@ -59,7 +59,7 @@ async def _(event):
     sleep(2)
     await xx.edit("Kalo Aku ...")
     sleep(1)
-    await xx.edit("Aku Sayang Kamu [Emilia](https://t.me/adeliarenata1)")
+    await xx.edit("Aku Sayang Kamu [Emilia](https://t.me/adeliarenata1jowo)")
 
 
 # Create by myself @localheart
