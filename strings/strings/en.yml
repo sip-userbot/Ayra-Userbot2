@@ -7,6 +7,7 @@ authors:
   - sppidy
   - ProgrammingError
   - aviskumar
+  - riizzvbss
 
 # pyAyra
 py_c1: "Wrong string session. Copy paste correctly!"
@@ -137,15 +138,15 @@ autopic_4: "AUTOPIC was not in use !!"
 autopic_5: "AUTOPIC Stopped!"
 
 # inline
-inline_1: "❀ Kang by [Riizz](t.me/riizzvbss) ❀\n\n**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\nPʟᴜɢɪɴs ~ {}**"
-inline_2: "❀ Kang by [Riizz](t.me/riizzvbss) ❀\n\n**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\nAᴅᴅᴏɴs ~ {}**"
-inline_3: "❀ Kang by [Riizz](t.me/riizzvbss) ❀\n\n**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\nAᴅᴅᴏɴs ~ {}\n\nDᴏ **`.setdb ADDONS True`** ᴀɴᴅ ʀᴇsᴛᴀʀᴛ ᴛᴏ ɢᴇᴛ ᴀᴅᴅᴏɴs.**"
-inline_4: "** Bᴏᴛ Oғ {}\n\nMᴀɪɴ Mᴇɴᴜ\n\nPʟᴜɢɪɴs ~ {}\nAᴅᴅᴏɴs ~ {}\nTᴏᴛᴀʟ Cᴏᴍᴍᴀɴᴅs ~ {}**"
-inline_5: "**Mᴇɴᴜ Hᴀs Bᴇᴇɴ Cʟᴏsᴇᴅ**"
-inline_6: "**Voice Chat Help Menu for {}**\n**Available Commands:** `{}`\n\n@gdrnch"
-inline_7: "Do .help {} to get the list of commands."
-inline_8: "Click the below button to update!"
-inline_9: "You Are Already On Latest Version"
+inline_1: "❏ Ayra Userbot by [Riizz](t.me/riizzvbss)\n\n**Inline Menu \n\nPlugins : {}**"
+inline_2: "❏ Ayra Userbot by [Riizz](t.me/riizzvbss)\n\n**Inline Menu \n\nAddons : {}**"
+inline_3: "❏ Ayra Userbot by [Riizz](t.me/riizzvbss)\n\n**Inline Menu \n\nAddons : {}\n\nKetik `.setdb ADDONS True` Kemudian Restart.**"
+inline_4: "** ❏ Ayra Userbot by [Riizz](t.me/riizzvbss)\n\nInline Menu\n\nPlugins : {}\nAddons ~ {}\nCommand : {}**"
+inline_5: "**Menu Di Tutup**"
+inline_6: "**Menu Bantuan untuk Voice Chat {}**\n**Perintah yang tersedia:** `{}`\n\n@gdrnch"
+inline_7: "Ketik `.help {}` untuk mendapatkan daftar perintah."
+inline_8: "Klik tombol di bawah ini untuk memperbarui!"
+inline_9: "Anda Sudah Menggunakan Versi Terbaru"
 
 # tagnotif
 tagnot_1: "{} tagged you in {}\n\n```{}```\n\n[📨 Message 📨]({})"
