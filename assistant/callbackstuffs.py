@@ -154,7 +154,7 @@ _buttons = {
         ],
     },
     "vcb": {
-        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/UltroidUpdates/4)",
+        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/gdrnch)",
         "buttons": [
             [Button.inline("VC Sᴇssɪᴏɴ", data="abs_vcs")],
             [Button.inline("« Bᴀᴄᴋ", data="setter")],
@@ -245,7 +245,7 @@ TOKEN_FILE = "resources/auths/auth_token.txt"
 )
 async def send(eve):
     key, name = (eve.data_match.group(1)).decode("UTF-8").split("_")
-    thumb = "resources/extras/inline.jpg"
+    thumb = "resources/extras/logo.jpg"
     await eve.answer("■ Sending ■")
     data = f"uh_{key}_"
     index = None
@@ -348,7 +348,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Ultroid Userbot •**{cli}", file=img, buttons=button
+                f"**• Ayra Userbot •**{cli}", file=img, buttons=button
             )
         except Exception as er:
             LOGS.exception(er)
@@ -356,14 +356,14 @@ async def changes(okk):
     if len(changelog_str) > 1024:
         await okk.edit(get_string("upd_4"))
         await asyncio.sleep(2)
-        with open("ultroid_updates.txt", "w+") as file:
+        with open("ayra_updates.txt", "w+") as file:
             file.write(tl_chnglog)
         await okk.edit(
             get_string("upd_5"),
-            file="ultroid_updates.txt",
+            file="ayra_updates.txt",
             buttons=button,
         )
-        remove("ultroid_updates.txt")
+        remove("ayra_updates.txt")
         return
     await okk.edit(
         changelog_str,
@@ -452,7 +452,7 @@ async def _(e):
         code = await conv.get_response()
         if GDrive._create_token_file(code=code.text):
             await conv.send_message(
-                "`Success!\nYou are all set to use Google Drive with Ultroid Userbot.`",
+                "`Success!\nYou are all set to use Google Drive with Ayra Userbot.`",
                 buttons=Button.inline("Main Menu", data="setter"),
             )
         else:
