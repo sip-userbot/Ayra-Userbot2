@@ -32,7 +32,7 @@ def main():
     ):
         Ayra_bot.run_in_loop(bash("bash installer.sh"))
 
-        os.execl(sys.executable, "python3", "-m", "pyAyra")
+        os.execl(sys.executable, "python3", "-m", "pyUltroid")
 
     Ayra_bot.run_in_loop(startup_stuff())
 
