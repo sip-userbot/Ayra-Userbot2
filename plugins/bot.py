@@ -70,21 +70,21 @@ def ULTPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-        Button.url(get_string("bot_4"), "t.me/UltroidSupportChat"),
+        Button.url(get_string("bot_3"), "https://github.com/riizzvbss/Ayra-Userbot2"),
+        Button.url(get_string("bot_4"), "t.me/gdrnch"),
     ]
 ]
 
 # Will move to strings
 alive_txt = """
-The Ultroid Userbot
+The Ayra Userbot
 
   ◍ Version - {}
-  ◍ Py-Ultroid - {}
+  ◍ Py-Ayra - {}
   ◍ Telethon - {}
 """
 
-in_alive = "{}\n\n🌀 <b>Ultroid Version -><b> <code>{}</code>\n🌀 <b>PyUltroid -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b> [ {} ]\n\n• <b>Join @TeamUltroid</b>"
+in_alive = "{}\n\n🌀 <b>Ayra Version -><b> <code>{}</code>\n🌀 <b>PyAyra -></b> <code>{}</code>\n🌀 <b>Python -></b> <code>{}</code>\n🌀 <b>Uptime -></b> <code>{}</code>\n🌀 <b>Branch -></b> [ {} ]\n\n• <b>Join @gdrnch</b>"
 
 
 @callback("alive")
@@ -231,7 +231,7 @@ async def shutdownbot(ult):
 )
 async def _(event):
     opt = event.pattern_match.group(1).strip()
-    file = f"ultroid{sys.argv[-1]}.log" if len(sys.argv) > 1 else "ultroid.log"
+    file = f"ayra{sys.argv[-1]}.log" if len(sys.argv) > 1 else "ayra.log"
     if opt == "heroku":
         await heroku_logs(event)
     elif opt == "carbon" and Carbon:
@@ -239,13 +239,13 @@ async def _(event):
         with open(file, "r") as f:
             code = f.read()[-2500:]
         file = await Carbon(
-            file_name="ultroid-logs",
+            file_name="ayra-logs",
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
-        await event.reply("**Ultroid Logs.**", file=file)
+        await event.reply("**Ayra Logs.**", file=file)
     elif opt == "open":
-        with open("ultroid.log", "r") as f:
+        with open("ayra.log", "r") as f:
             file = f.read()[-4000:]
         return await event.eor(f"`{file}`")
     else:
@@ -289,7 +289,7 @@ async def inline_alive(ult):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@TeamUltroid",
+                        description="@Riizzvbss",
                         parse_mode="html",
                         buttons=buttons,
                     )
