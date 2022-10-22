@@ -4,7 +4,6 @@ natively: Indonesia
 authors:
   - itsmenandos
   - mrismanaziz
-  - riizzvbss
 
 # commons
 com_1: "`Sedang Memproses...`"
@@ -157,7 +156,7 @@ bot_2: "Stats"
 bot_3: "Repo"
 bot_4: "Support"
 bot_5: "`Sedang Merestart...`"
-alive_1: "**The Ayra Userbot...**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-Ayra** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
+alive_1: "**❏ Ayra Userbot by [Riizz](t.me/riizzvbss**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-Ayra** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
 log: "**Heroku** Ayra Logs.\nPasted [here]({}) too!"
 ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
 usage: "**⚙️ Informasi Dyno ⚙️**:\n\n➠ **Penggunaan Dyno** `{}`:\n  •  **{}h**  **{}m |** `[{}%]`\n➠ **Sisa kuota dyno bulan ini :**\n  •  **{}h**  **{}m |** `[{}%]`\n\n**Total Ruang Disk:**: `{}`\n**Terpakai**: `{}`\n**Kosong**: `{}`\n\n**📊 Penggunaan Data 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
