@@ -15,7 +15,7 @@ import os
 from uuid import uuid4
 
 from telethon.tl.types import DocumentAttributeAudio
-from pyUltroid.functions.tools import metadata
+from pyUltroid.fns.tools import metadata
 
 from . import *
 
