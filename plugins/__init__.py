@@ -67,6 +67,7 @@ NOSPAM_CHAT = [
     -1001726206158,  # Nande Support
     -1001675396283, # Ayiin Support
     -1001795125065, # Bagas Support
+    -1001533367484, # Nath Support
 ]
 
 KANGING_STR = [
